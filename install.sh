@@ -26,6 +26,10 @@ cp -r .tmux ~/.tmux
 cp -r .tmux.conf ~/.tmux.conf
 
 mkdir ~/.fonts
+mkdir -o ~/backup/shaarli
+mkdir -p ~/dev/scripts
+
+cp cp -r backupShaarli.sh ~/dev/scripts/backupShaarli.sh
 cp .fonts.conf ~/.fonts.conf
 
 # Install docker
