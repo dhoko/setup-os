@@ -19,7 +19,7 @@ Script to setup my desktop (based on Ubuntu)
 
 ### Tools
 
-- docker
+- docker + docker-compose
 - node.js + npm
 - http-server
 
