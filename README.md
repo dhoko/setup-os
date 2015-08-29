@@ -17,6 +17,11 @@ Script to setup my desktop (based on Ubuntu)
 - clementine
 - Chromium
 
+### Tools
+
+- docker
+- node.js + npm
+
 
 ## Non free Software
 
