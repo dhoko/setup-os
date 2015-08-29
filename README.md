@@ -4,6 +4,7 @@ Script to setup my desktop (based on Ubuntu)
 ## Software
 
 - htop
+- tmux
 - vim 
 - synapse 
 - git 

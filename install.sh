@@ -12,8 +12,8 @@ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) pa
 
 sudo apt-get update
 
-sudo apt-get install htop vim synapse sakura git curl xclip leafpad guake unrar vlc clementine chromium-browser
-sudo apt-get install google-chrome-stable sublime-text-installer skype
+sudo apt-get install -y tmux htop vim synapse sakura git curl xclip leafpad guake unrar vlc clementine chromium-browser
+sudo apt-get install -y google-chrome-stable sublime-text-installer skype
 
 
 # Import dotfiles
@@ -23,6 +23,8 @@ cd dotfiles/
 cp -r .bashrc ~/.bashrc
 cp -r .bashrc.d ~/.bashrc.d
 cp -r .tmux ~/.tmux
+cp -r .tmux.conf ~/.tmux.conf
+
 mkdir ~/.fonts
 cp .fonts.conf ~/.fonts.conf
 
