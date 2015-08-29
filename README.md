@@ -28,3 +28,8 @@ Script to setup my desktop (based on Ubuntu)
 - Google Chrome
 - Sublime text 3
 - Skype
+
+
+## Details
+
+Need to do a `chmod 400 ~/.ssh/id_rsa`. 
