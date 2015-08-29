@@ -36,6 +36,9 @@ source ~/.bashrc
 
 nvm install stable
 
+# Install a nodejs server
+npm i -g http-server
+
 echo
 
 echo Now you need to:

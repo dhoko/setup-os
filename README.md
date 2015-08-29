@@ -21,6 +21,7 @@ Script to setup my desktop (based on Ubuntu)
 
 - docker
 - node.js + npm
+- http-server
 
 
 ## Non free Software
