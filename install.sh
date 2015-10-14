@@ -13,7 +13,7 @@ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) pa
 sudo apt-get update
 
 sudo apt-get install -y tmux htop vim synapse sakura git curl xclip leafpad guake unrar vlc clementine chromium-browser
-sudo apt-get install -y google-chrome-stable sublime-text-installer skype
+sudo apt-get install -y google-chrome-stable sublime-text-installer skype ufw gufw
 
 
 # Import dotfiles
@@ -48,6 +48,10 @@ nvm install stable
 
 # Install a nodejs server
 npm i -g http-server
+
+# Allow KDE Connect
+sudo ufw allow 1714:1764/tcp
+sudo ufw allow 1714:1764/udp
 
 echo
 
