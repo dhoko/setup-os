@@ -37,11 +37,11 @@ wget -qO- https://get.docker.com/ | sh
 sudo usermod -aG docker dhoko
 
 # Install docker-compose
-curl -L https://github.com/docker/compose/releases/download/1.4.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/1.4.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
 # Install node.js
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.26.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 source ~/.bashrc
 
 nvm install stable
