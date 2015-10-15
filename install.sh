@@ -6,6 +6,8 @@ echo Install Ubuntu
 # Add PPAs
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo add-apt-repository ppa:synapse-core/ppa
+# for kdeconnect
+sudo add-apt-repository ppa:vikoadi/ppa
 # for guake
 sudo add-apt-repository ppa:webupd8team/unstable 
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -17,7 +19,7 @@ sudo apt-get update
 
 sudo apt-get install -y tmux htop vim synapse sakura git curl xclip leafpad guake unrar vlc clementine chromium-browser pcmanfm gnome-sushi
 sudo apt-get install -y google-chrome-stable sublime-text-installer skype ufw gufw
-
+sudo apt-get install -y indicator-kdeconnect kdeconnect
 
 # Import dotfiles
 cd /tmp
