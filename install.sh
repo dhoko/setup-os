@@ -17,7 +17,7 @@ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) pa
 
 sudo apt-get update
 
-sudo apt-get install -y tmux htop vim synapse sakura git curl xclip leafpad guake unrar vlc clementine chromium-browser pcmanfm gnome-sushi
+sudo apt-get install -y tmux htop vim synapse sakura git curl comix xclip leafpad guake unrar vlc clementine chromium-browser pcmanfm gnome-sushi
 sudo apt-get install -y google-chrome-stable sublime-text-installer skype ufw gufw
 sudo apt-get install -y indicator-kdeconnect kdeconnect
 
