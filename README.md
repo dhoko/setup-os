@@ -17,6 +17,9 @@ Script to setup my desktop (based on Ubuntu)
 - vlc 
 - clementine
 - Chromium
+- Pcmanfm
+- Gufw
+- KDE connect
 
 ### Tools
 
